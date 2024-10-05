@@ -69,7 +69,7 @@ if __name__ == '__main__':
         prediction = model.predict(twt)[0][0]
 
         # Adjust threshold for prediction
-        threshold = 0.4  # Make model more sensitive to suicidal ideation
+        threshold = 0.2  # Make model more sensitive to suicidal ideation
         
         # Display the raw prediction value for transparency
         st.write(f"Raw prediction score: {prediction:.4f}")
